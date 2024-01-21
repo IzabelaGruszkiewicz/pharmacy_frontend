@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    --front-size-default: 16px;
+    --font-family-default: Montserrat, Helvetica, Arial, sans-serif;
+    --color-text-default: #222020;
+    --color-price: #c60c0c;
+}

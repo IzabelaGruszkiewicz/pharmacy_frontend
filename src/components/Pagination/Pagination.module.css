@@ -1,0 +1,13 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.pagination li {
+    cursor: pointer;
+    list-style: none; /* Usunięcie domyślnego stylu kropki przed numerem strony */
+    display: inline-block; /* Numery stron ustawione obok siebie */
+}

@@ -1,0 +1,32 @@
+.formContainer {
+    margin-left: 680px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    height: 20px;
+
+}
+
+
+.label {
+    margin-right: 10px;
+}
+.input{
+    background-color: rgba(172, 201, 154, 0.82);
+    border: 1px solid #2f2f2f;
+    border-radius: 4px;
+}
+
+
+.myButton {
+    margin-bottom: 15px;
+    height: 40px;
+    margin-left: 15px;
+    background-color: rgba(99, 117, 89, 0.82);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}

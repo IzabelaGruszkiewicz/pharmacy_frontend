@@ -1,0 +1,48 @@
+.flexCartContainer{
+    display: flex;
+    gap: 0.5rem;
+    margin: 2.5rem auto;
+    width: 100%;
+    max-width: 100rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+h2{
+    margin-bottom: 1rem;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Dodatkowe style dla wybranego elementu w select */
+select option:checked {
+    background-color: #e0e0e0;
+}
+
+.myButton {
+    margin-top: 17rem;
+    margin-right: 10px;
+    background-color: rgba(172, 201, 154, 0.82);
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.myButton:hover {
+    background-color: rgba(106, 201, 51, 0.82);
+    color: #ffffff;
+
+}

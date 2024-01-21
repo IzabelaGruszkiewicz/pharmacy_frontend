@@ -1,0 +1,21 @@
+.categoryMenu{
+    background-color: rgba(172, 201, 154, 0.82);
+    width: 100%;
+}
+.categoryMenu ul{
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.categoryMenu ul li a{
+    color: #000000;
+}
+.categoryMenu ul li a:hover{
+    color: #545454;
+}
+.categoryMenu ul li a:active(.global){
+    text-decoration: underline;
+}

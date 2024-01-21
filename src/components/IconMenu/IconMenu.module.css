@@ -1,0 +1,35 @@
+.iconMenu{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.iconMenu li{
+    position: relative;
+    margin-left: 0.5rem;
+}
+
+.numberOfProducts{
+    position: absolute;
+    bottom: -0.1rem;
+    right: -0.6rem;
+
+    background-color: rgb(151, 192, 132);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+
+    font-size: 0.5rem;
+    font-weight: 700;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart{
+
+}
+.heart:hover {
+    background-image: url("../../assets/red_heart.svg");
+}

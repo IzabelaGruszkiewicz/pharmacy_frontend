@@ -1,0 +1,35 @@
+.product{
+    position: relative;
+}
+.product button{
+    border: none;
+}
+.product img{
+    width: 300px;
+    height: 300px;
+}
+.product h3 {
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+.product h4{
+    margin-bottom: 0.5rem;
+}
+.product p{
+    color: #c60c0c;
+    margin-bottom: 1rem;
+}
+
+.heart{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background-image: url("../../assets/heart.svg");
+    background-repeat: no-repeat;
+}
+
+.heart:hover{
+    background-image: url("../../assets/red_heart.svg");
+}
